@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.Home-page {
+  width: 100%;
+  display: flex;
+}
+.left-section {
+  flex: 1;
+  background-color: black;
+  height: 90vh;
+  flex-direction: column;
+}
+.logo > img {
+  width: 130px;
+  
+}
+.l-block1 {
+  border-radius: 6px;
+  flex-direction: column;
+  overflow: hidden;
+}
+.l-block1 > div {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding:10px;
+  font-size:13px;
+  
+  
+}
+.block1-one {
+  background-color: #282828;
+  border-radius:6px;
+ 
+}
+.b1-image1{
+    width: 1.2rem;
+    height: 1.2rem;
+ 
+}
+.igg{
+    background-color: white;
+}
+.b1-image2{
+    width:1.5rem;
+    height: 1.5rem;
+    margin-right: 14px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right-section {
+  flex: 4;
+  background-color: antiquewhite;
+}
+.player {
+  background-color: blue;
+  height: 10vh;
+  width: 100%;
+  position: sticky;
+  bottom: 0px;
+}
