@@ -1,6 +1,9 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins&family=Roboto&display=swap');
+*{
   margin: 0px;
   padding: 0px;
+  font-family: 'Sans', sans-serif;
+  font-weight: 500;
 }
 .Home-page {
   width: 100%;
@@ -25,8 +28,9 @@
   display: flex;
   align-items: center;
   color: white;
-  padding:10px;
-  font-size:13px;
+  padding:8px;
+  font-size:12px;
+  
   
   
 }
@@ -44,16 +48,39 @@
     background-color: white;
 }
 .b1-image2{
-    width:1.5rem;
-    height: 1.5rem;
+    width:1.2rem;
+    height: 1.2rem;
     margin-right: 14px;
  
 }
+.l-block3{
+  color:white;
+  font-size:12px;
+  text-align: left;
+  
+  
+}
+.lul-block3{
+  padding-left:0px;
 
-
-
-
-
+}
+.lul-block3>li{
+  text-decoration: none;
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+.lul-block3>li>a, .l-block1>div>a{
+  text-decoration: none;
+  color:white;
+}
+.l-block4{
+  color:white;
+  font-size: 12px;
+}
+.l-block4 a{
+  text-decoration: none;
+  list-style-type: none;
+}
 
 
 
