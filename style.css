@@ -5,17 +5,23 @@
   font-family: 'Sans', sans-serif;
   font-weight: 500;
 }
+html{
+  height:100%;
+  overflow: hidden;
+}
 .Home-page {
   width: 100%;
   display: flex;
 }
 .left-section {
-  flex: 1;
+  
+  flex:1;
   background-color: black;
   height: 90vh;
   flex-direction: column;
+
 }
-.logo > img {
+.logo > a > img {
   width: 130px;
   
 }
@@ -30,9 +36,11 @@
   color: white;
   padding:8px;
   font-size:12px;
-  
-  
-  
+}
+.block1-two:hover{
+  background-color: #282828;
+  border-radius:6px;
+  transform: scale(1.02);
 }
 .block1-one {
   background-color: #282828;
@@ -73,6 +81,12 @@
   text-decoration: none;
   color:white;
 }
+.lul-block3>li>a:hover{
+  font-size: 15px;
+}
+.lul-block3>li>a{
+  transition:font-size 0.5s ease-in;
+}
 .l-block4{
   color:white;
   font-size: 12px;
@@ -80,37 +94,125 @@
 .l-block4 a{
   text-decoration: none;
   list-style-type: none;
+  color:white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.inst{
+  position:fixed;
+  bottom:50px;
+}
+.inst:hover{
+  color:rgb(14, 18, 251);
+}
 
 
 
 
 
 .right-section {
-  flex: 4;
-  background-color: antiquewhite;
+  flex:4;
+  background: linear-gradient(to bottom, #1f1e1e,#000000);
+  overflow-y: scroll;
+  height:90vh;
 }
+.topbar{
+  position:sticky;
+  top:0;
+  height:30px;
+  
+}
+.profile-logo a  img{
+  width:100px;
+}
+.topbar .prev-next-button button{
+  color:#7a7a7a;
+  width:24px;
+  height:24px;
+  border-radius:50% ;
+  border:0;
+  font-size:12px;
+  background-color: #000000;
+}
+.topbar .prev-next-button button:hover,
+.topbar .prev-next-button button:active{
+  color:white;
+}
+.songs h4{
+  color:white;
+  font-family: 'DM Sans', sans-serif;
+}
+.songs{
+  width:85%;
+
+}
+.song-blocks .song-blocks-1{
+  background-color:#303030;
+  padding-left:0 !important;
+  height:60px;
+  width:250px;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+.song-blocks-1 p{
+  color:white;
+  font-weight:500;
+  font-family: 'DM Sans', sans-serif;
+  border-radius: 2px;
+}
+
+
+.song-blocks .song-blocks-1 img{
+  height:100%;
+}
+.song-blocks{
+  flex-wrap:wrap;
+}
+
+.shows-like{
+  width:80%;
+  color:#FFFF;
+}
+.shows-list{
+  flex-wrap: wrap;
+}
+.shows-block{
+  background-color: #181818;
+  color:white;
+  font-family: 'DM Sans', sans-serif;
+  
+}
+.shows-block img{
+  width:130px;
+  height:130px;
+}
+.shows-block p{
+  color:#B3B3B3;
+  font-size:x-small;
+}
+
+
+
+
 .player {
-  background-color: blue;
+  background-color: #181818;
   height: 10vh;
-  width: 100%;
+  width: 100vw;
   position: sticky;
   bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.player-block1, .player-block3{
+  flex:1;
+  height:10px;
+  
+}
+.player-block2{
+  flex:2;
+  height:5px;
+  
+}
+.player-block2 input{
+  width:80%;
+  height:3px;
 }
