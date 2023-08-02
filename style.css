@@ -30,12 +30,28 @@ html{
   flex-direction: column;
   overflow: hidden;
 }
-.l-block1 > div {
+.l-block1 > div, .l-block1 > a > div  {
   display: flex;
   align-items: center;
   color: white;
   padding:8px;
   font-size:12px;
+}
+.l-block1 > a {
+  text-decoration: none;
+}
+.nvbar-sp{
+  opacity:0.7;
+}
+.nvbar-sp:hover{
+  opacity:1;
+
+}
+.b1-image2{
+  background-color: #B3B3B3;
+}
+.b1-image2:hover{
+  background-color: white;
 }
 .block1-two:hover{
   background-color: #282828;
@@ -50,7 +66,6 @@ html{
 .b1-image1{
     width: 1.2rem;
     height: 1.2rem;
- 
 }
 .igg{
     background-color: white;
@@ -179,9 +194,6 @@ html{
   font-family: 'DM Sans', sans-serif;
   
 }
-.shows-block:hover{
-  box-shadow:0px 5px 15px 0px #181818;
-}
 .shows-block img{
   width:130px;
   height:130px;
@@ -198,7 +210,7 @@ html{
   background-color: #181818;
   height: 10vh;
   width: 100vw;
-  position: sticky;
+  position: fixed;
   bottom: 0px;
   display: flex;
   justify-content: space-between;
@@ -288,3 +300,86 @@ html{
   height:4px;
   width:50px;
 }
+
+
+.playlist-page{
+  width:100%;
+  display:flex;
+}
+.second-leftbar{
+  flex:.8;
+  height:88vh;
+  background-color: #000000;
+
+}
+.divider-second{
+  border-bottom: 1px solid #656464;
+  width:85%;
+  
+}
+.second-rightbar{
+  flex:4.2;
+  background: linear-gradient(180deg, #90AEA7 0%, #000000 89.7%);
+  
+
+}
+
+.logo-two img{
+  width:110px;
+}
+.player-second {
+  background-color: #181818;
+  height: 12vh;
+  width: 100vw;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.player-block1 .vector2-img{
+  width:24px;
+  height:24px;
+}
+.heading-second{
+  color:#B3B3B3;
+  font-size: 10px;
+}
+.heading-second p{
+  opacity: 0.7;
+  font-weight:700;
+}
+.heading-second p:hover{
+  opacity: 1;
+  color:white;
+}
+.second-lb-image img{
+  width:60%;
+   
+}
+
+.sec-block1{
+  height:200px;
+}
+.sec-b1-p1{
+  font-size: 8px;
+  margin-bottom: 0px;
+}
+.sec-block1-desc{
+  color:#FFFFFF;
+}
+.sec-block1-desc h1{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+.sec-block1 p{
+  color:rgb(193, 188, 188);
+  font-family: 'DM Sans', sans-serif;
+}
+#mkbl{
+  color:white
+}
+
