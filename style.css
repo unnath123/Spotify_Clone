@@ -382,4 +382,73 @@ html{
 #mkbl{
   color:white
 }
+.second-playlist{
+  width:100%;
+  height:300px;
+  background-image: linear-gradient(#323a37 0%,#000000 40%);
+}
+.resume-play{
+  width:30px;
+  height: 30px;
+}
+.t-dots{
+  width:28px;
+  height:28px;
+}
+.playlist-elements img{
+  margin-top:10px;
+}
+table th{
+  color:#FFFF;
+}
+#tble-h-fcl{
+  text-align:center;
+  background-color:transparent;
+  
+}
+#tble-h-fcl,#tble-h-fcl1{
+  background-color:transparent;
+  border-bottom-width:0 ;
+  color:white;
+}
+.table>:not(thead)>*>*{
+  
+}
+thead{
+  padding:0rem 0.6rem !important;
+}
+thead, tbody, tr{
+  display:table;
+  width:100%;
+  table-layout:fixed;
+}
 
+tbody{
+  width:100%;
+  display:block;
+  height:200px;
+  overflow-y:scroll;
+}
+tbody::-webkit-scrollbar{
+  display:none;
+}
+th,td{
+  font-size:10px;
+}
+#tble-h-fcl1 img{
+  height:28px;
+  width:26px;
+}
+#i-desc{
+  font-size:8px;
+}
+.polygon-img{
+  width:8px !important;
+  height:8px !important;
+  
+}
+.img-hearty{
+  width:18px;
+  height:18px;
+
+}
